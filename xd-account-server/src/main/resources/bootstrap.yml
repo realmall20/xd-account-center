@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: xd-account-server
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.5.14:8848
+        shared-dataids: global.yaml,redis.yaml
+        file-extension: yaml
+  data:
+     mongodb:
+       host:
+
+
+

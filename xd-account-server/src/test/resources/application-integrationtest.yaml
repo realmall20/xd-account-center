@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: xd-account-server
+  data:
+    mongodb:
+      host: localhost
+      port: 57017
+      database:  xd
